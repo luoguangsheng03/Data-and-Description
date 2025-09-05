@@ -10,7 +10,7 @@
            
 2 Interviewee audio part: This folder contains the interviewee audio part captured based on the ASR results.
       
-     - ComParE.zip: extracted audio features, each folder represents a feature extraction method, stored in h5py file format
+     - phonation_static.h5: extracted audio features, each folder represents a feature extraction method, stored in h5py file format
     
     '''
     import h5py
@@ -20,4 +20,4 @@
     '''
    The KEY is patient_id
     
-3. ComParE.h5 respectively describe the extracted audio features.
+3.phonation_static.h5 respectively describe the extracted audio features.
